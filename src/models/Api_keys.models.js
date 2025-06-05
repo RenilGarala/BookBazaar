@@ -29,7 +29,6 @@ const apikeySchema = mongoose.Schema({
   },
 });
 
-
 const ApiKey = mongoose.model("Apikey", apikeySchema);
 
 export default ApiKey;
